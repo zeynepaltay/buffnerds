@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-static void Main(string[] args)
+    enum Rarity
     {
-        public string item;
-        Abilities[] passiveAbilities;
-        Abilities[] specialAbilities;
-    
+        Commen,
+        Uncommen,
+        Epic,
+        Legendary
+    }
+    string item;
+    Abilitie[] passiveAbilities;
+    Abilitie[] specialAbilities;
+    public Item()
+    {
+        
+    }
+    static void ActiveAbility()
+    {
 
     }
-static void ActiveAbilities()
-{
-    //Stat buff TO DO
-}
-enum Rarity
-{
-    Commen,
-    Uncommen,
-    Epic,
-    Legendary
-}
 }
